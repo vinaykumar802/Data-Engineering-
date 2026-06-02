@@ -6,7 +6,7 @@
 x="2" #this is a global variable
 def myfunc():
     #local scope
-    x = "Vinay kumar" #inside function x is local varia
+    x = "Vinay kumar" #inside function x is local variable
     print("Python developer is " + x)
 myfunc()
 print("Python developer is " + x)
