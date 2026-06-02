@@ -3,10 +3,10 @@
 #     x = "Vinay kumar"
 # myfunc()
 # print("Python developer is " + x)
-x="2"
+x="2" #this is a global variable
 def myfunc():
-    
-    x = "Vinay kumar"
+    #local scope
+    x = "Vinay kumar" #inside function x is local varia
     print("Python developer is " + x)
 myfunc()
 print("Python developer is " + x)
